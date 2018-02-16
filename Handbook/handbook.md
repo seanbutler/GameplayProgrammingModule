@@ -1,8 +1,7 @@
-# Gameplay Programming<br />UFCF7M-30-2
+# Gameplay Programming<br />Module Handbook<br />UFCF7M-30-2
 
-__Sean Butler__
+__Sean Butler__ <br />
 __Sean2.Butler@uwe.ac.uk__
-## Module Handbook
 
 ## Change Log
 
