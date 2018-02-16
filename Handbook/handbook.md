@@ -193,7 +193,7 @@ In a grey-boxed room create a wall switch and a door. The wall switch should sti
 
 The effect should be to initiate a single shot panning/tracking cutscene in which we see, the switch, the player and the door. Think about how Link access and initialises shrines for the first time.
 
-![Zelda Trial Cutscene](./Assets/ZeldaTrialCutscene.PNG)
+![Zelda Trial Cutscene](./Assets/ZeldaTrialCutscene.png)
 
  - https://youtu.be/L_ubt86BMsk?t=24m29s
  - https://youtu.be/L_ubt86BMsk?t=25m11s
