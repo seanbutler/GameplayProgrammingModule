@@ -177,7 +177,7 @@ You are making a hybrid of Zelda Breath of the Wild and Super Mario 3d World. Th
 
 |Zelda| X |Mario 3D|
 |:-:|:-:|:-:|
-|![Zelda Cover](./Assets/ZeldaCover.JPG) || ![Zelda Cover](./Assets/MarioCover.JPG) |
+|![Zelda Cover](./Assets/ZeldaCover.jpg) || ![Zelda Cover](./Assets/MarioCover.jpg) |
 
 The designer has worked on the high concept and some artwork, but no prototyping or proof of concepts have been made.
 
