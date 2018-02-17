@@ -240,7 +240,7 @@ Check out the complete list humanoid animations available from the asset store c
 
 ### Step 1 - Technical Preparation
 
-What animations are available from the vendor? They have multiple free packs you can access whcih all seem to work together. What would be a minimal set of actions? How will the available actions affect the possible gameplays?
+What animations are available from the vendor? They have multiple free packs you can access which all seem to work together. What would be a minimal set of actions? How will the available actions affect the possible gameplays?
 
 When the avatar is small it doesn’t matter too much, but when it grows, the approach you choose to implement is going to affect how you extend the functionality most easily. You should be able to defend your decision.
 
@@ -279,6 +279,173 @@ Imagine a level designer is going to use this to traverse many levels throughout
 Whoohoo!
 
 
+### Questions
+
+ - The same avatar and gameplay might have to be achieved seamlessly on all the consoles and on pc. How might you build an architecture to handle this?
+ - Sometimes a cutscene or special case might take control from the player and drive the avatar. Whats a good way to implement this?
+ - In a system which uses contextual/default actions, do we need the complete animation set in every scene? Perhaps a switch animation only needs to be loaded in a scene which actually has switches. How would you build a system which can be extended dynamically depending on what gameplay has been implemented?
+
+
 ### Notes
 
 Lloyd has a big set of console controllers locked in his cupboard somewhere, perhaps you can borrow one from him? Probably easiest to go to the resources room and borrow an Xbox controller from them to work with.
+
+
+## Activity 5 – Collectables and Special Effects
+
+__This activity is part of your portfolio assessment.__
+
+You have been tasked with designing and implementing a couple of in game collectables. Both are magical and offer their benefit for a limited time on collection.
+
+You may use free sprites from the internet or asset store if you like, but the particle systems and other special effects must be your own.
+
+One provides a speed boost, the other a double jump.
+
+You will need to extend your simple test environment for your new abilities.
+
+Make sure that the collectable communicates everything necessary about itself in a glancible way to the player.
+
+![Jak And Daxter Collect Something](./Assets/JakAndDaxterCollects.png)
+
+### Step 1: Take a look at the collectables in Jak & Daxter
+
+This video should give you an overview of a few.
+
+https://www.youtube.com/watch?v=h9dY6gv1hzA
+
+Think about these questions when reviewing the collectables and their special effects.
+
+ - How many different kinds of particles and effects are running in each collectable?
+
+ - How many effects are layered together in each individual collectable?
+
+ - How does the system communicate something about the specific nature of the collectable's effect.
+
+ - What opportunities exist within the system to communicate current status of the collectable's effect.
+
+ - Some collectables show their magic before collect, it is transferred and goes with the player for a while, and then dies out. Can you tell these visually from the effects?
+
+You can a simple primitive for the actual collectable, nothing to sophisticated, try to make it suit the effect.
+
+
+### Step 2: Implement a collectable
+
+Implement a collectable.
+
+The player should gain a temporary speed boost. Its effect is immediate.
+
+If you collect more than one, the duration of the second overwrites the first.
+
+
+### Step 3: Implement another collectable
+
+Implement a collectable.
+
+The player should gain a double jump, which they can use once, when  they jump.
+
+If the player collects more than one, the number of double jumps they can do accumulates and also stays with them until used. No triple jumps though.
+
+
+### Step 4 - Test
+
+Show your collectables and effects to a colleague, have them test them out and give you feedback. Consider implementing the feedback.
+
+
+### Step 5 - Score!
+
+Show it to me to get it marked!
+
+
+### Questions:
+
+ - Every collectable has a significant amount in common. How are you going to implement the collectable given that there will be another, and in all likelihood the designer will probably need many more.
+
+ - What memory issues are possible from levels with lots of collectables and particles? How might you build your system to alleviate these?
+
+ - When your collectables are in a group are they in sync with each other?
+
+
+
+
+
+
+##  Activity 6 – Controllable Follow Cam
+
+ __This Activity is part of your portfolio assessment.__
+
+ Consider the cameras of Super Mario 3d World, Zelda and Oceanhorn.
+Google them and take a look at some lets plays on youtube.
+
+ In our case the designer wants a similar camera:
+
+ - With a ability to snap in a nice smooth & soft way to the NSEW axis.
+ - With a ability to focus (z-lock) on to a local enemy being fought.
+
+
+Your control scheme should work across multiple controllers.
+
+| Intent | JoyCon | PC | XBOX |
+|---|---|---|---|
+| Steer Camera | Other Shoulder digital button. 4 digital push buttons arranged in a diamond | ? | Second Thumbstick |
+
+Do not implement a free mouse look style camera in your final version. The problem you have is that some controllers do or don’t have a second thumbstick giving the additional two axis necessary for free camera control.
+
+### Questions
+
+ - If we have a camera that lerps to the next compass point (90deg) smoothly then how might you control that with a second thumbstick?
+ - How might you create an experience that is uniform or at least feels similar across multiple different platforms?
+
+
+
+## Activity 7 – Special Camera Controllers
+
+You have been tasked with making some camera controllers for an action platformer. The level designers need to be able to override the existing camera when the player enters certain regions.
+
+### Sideways Platforming Sequence. Commonly Known as 2.5d Platforming.
+
+Build a Player/ Camera Controller and Associated System which allows the player to easily transition into and out of 2.5 d gameplay. The player should be constrained to a spline and the camera behaviour changes to suite the more jumpy focussed gameplay.
+
+Take a look at Klonoa or one of the many 2.5d platformers which proliferated on the Playstation and Nintendo platforms.
+
+https://www.youtube.com/watch?v=TXcaAW1cKmM
+
+
+### Spiral Platforming Sequence in a 3d Environment
+
+Build a Camera Controller and Associated System which allows the player to easily transition into and out of a spiral platforming sequence.
+
+
+### Complicated Constrained Environment
+
+
+## Activity 8 – Moving Platform Sequence
+
+__This Activity is part of your portfolio assessment.__
+
+Imagine two platforming sequences.
+
+ - A series of cars driving along a road, tunnels, bridges, tree branches, road signs etc are all hazards in your way.
+
+ - A Gloopy Polluted River flows along a canyon and over a waterfall, riding the river are a series of barrels.
+
+
+
+## Activity 8 – Air Controls and Wall Interactions
+
+__This Activity is part of your portfolio assessment.__
+
+Consider the Air Controls of Mario and Super Meat Boy.
+
+
+
+## Activity 10 – Melee Combat
+
+__This Activity is part of your portfolio assessment.__
+
+Consider the melee combat of Zelda.
+
+
+
+## Activity 11 - Group Project
+
+__This Activity is part of your group work.__
