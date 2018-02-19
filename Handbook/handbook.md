@@ -78,9 +78,9 @@ __Professionalism__
 |---|---|---|---|---|---|---|
 |Switches, Doors Logic & Cutscene	| 0	| 1	| 2	| 3	| 4	| 5 |
 |A Basic Avatar                     | 0	| 1	| 2	| 3	| 4	| 5 |
+|Collectable	                       | 0	| 1	| 2	| 3	| 4	| 5 |
 |A Follow Camera                   	| 0	| 1	| 2	| 3	| 4	| 5 |
 |Camera Controllers	                | 0	| 1	| 2	| 3	| 4	| 5 |
-|Collectable	                    | 0	| 1	| 2	| 3	| 4	| 5 |
 |Platform Sequence 	                | 0	| 1	| 2	| 3	| 4	| 5 |
 |Combat                             | 0 | 2 | 4 | 6 | 8 | 10 |
 |Air & Wall Jumps                   | 0	| 1	| 2	| 3	| 4	| 5 |
@@ -111,32 +111,34 @@ The exact marking scheme will be supplied to you. You will be marked on the cont
 
 | Week | Session (Day) | Description | Activity | Assessment |
 |---|---|---|---|---|
-| 1    | 1 (Tue)   | Module Overview & Research the Role | 1 |   |
-| 1    | 2 (Fri)   | Research State Machine Patterns | 2 |   |
+| 1    | 1 (Tue)   | Module Overview & Research the Role              | 1 |   |
+| 1    | 2 (Fri)   | Research State Machine Patterns                  | 2 |   |
 | 2    | 1 (Tue)   | Basic Switches, Door Logic and a Simple Cutscene | 3 |   |
-| 2    | 2 (Fri)   | Finish & Mark Basic Logic & Cutscene | 3 | Y |
-| 3    | 1 (Tue)   | Implement a Basic Avatar | 4 |   |
-| 3    | 2 (Fri)   | Finish & Mark Basic Avatar | 4 | Y |
-| 4    | 1 (Tue)   | Collectables & Particles  | 5 |   |
-| 4    | 2 (Fri)   | Finish & Mark Collectable | 5 | Y |
-| 5    | 1 (Tue)   | Special Camera Controllers | 6 |   |
-| 5    | 2 (Fri)   | Finish & Mark Special Camera Controllers | 6 | Y |
-| 6    | 1 (Tue)   | Slick Controllable Gameplay Camera | 7 |   |
-| 6    | 2 (Fri)   | Finish & Mark Gameplay Camera | 7 | Y |
-| 7    | 1 (Tue)   | Moving Platforms Sequence | 8 |   |
-| 7    | 2 (Fri)   | Finish & Mark Platforms  | 8 | Y |
-| 8    | 1 (Tue)   | Combat | 9 |   |
-| 8    | 2 (Fri)   | Finish & Mark Combat | 9 | Y |
-| 9    | 1 (Tue)   | Physics Based Air Control & Wall Interactions | 10 |   |
-| 9    | 2 (Fri)   | Finish & Mark Air & Wall Interactions | 10 | Y |
-| 10   | 1 (Tue)   | Group Project Kick Off | 11 |   |
-| 10   | 2 (Fri)   | Group Project | 11 |   |
-| 11   | 1 (Tue)   | Group Project | 11 |   |
-| 11   | 2 (Fri)   | Group Project | 11 |   |
-| 12   | 1 (Tue)   | Group Project | 11 |   |
-| 12   | 2 (Fri)   | Group Project Demo | 11 | Y |
+| 2    | 2 (Fri)   | Finish & Mark Basic Logic & Cutscene             | 3 | Y |
+| 3    | 1 (Tue)   | Implement a Basic Avatar                         | 4 |   |
+| 3    | 2 (Fri)   | Finish & Mark Basic Avatar                       | 4 | Y |
+| 4    | 1 (Tue)   | Collectables & Particles                         | 5 |   |
+| 4    | 2 (Fri)   | Finish & Mark Collectable                        | 5 | Y |
+| 5    | 1 (Tue)   | Special Camera Controllers                       | 6 |   |
+| 5    | 2 (Fri)   | Finish & Mark Special Camera Controllers         | 6 | Y |
+| 6    | 1 (Tue)   | Slick Controllable Gameplay Camera               | 7 |   |
+| 6    | 2 (Fri)   | Finish & Mark Gameplay Camera                    | 7 | Y |
+| 7    | 1 (Tue)   | Moving Platforms Sequence                        | 8 |   |
+| 7    | 2 (Fri)   | Finish & Mark Platforms                          | 8 | Y |
+| 8    | 1 (Tue)   | Combat                                           | 9 |   |
+| 8    | 2 (Fri)   | Finish & Mark Combat                             | 9 | Y |
+| 9    | 1 (Tue)   | Air Control & Wall Interactions                  | 10 |   |
+| 9    | 2 (Fri)   | Finish & Mark Air & Wall Interactions            | 10 | Y |
+| 10   | 1 (Tue)   | Group Project Kick Off                           | 11 |   |
+| 10   | 2 (Fri)   | Group Project                                    | 11 |   |
+| 11   | 1 (Tue)   | Group Project                                    | 11 |   |
+| 11   | 2 (Fri)   | Group Project                                    | 11 |   |
+| 12   | 1 (Tue)   | Group Project                                    | 11 |   |
+| 12   | 2 (Fri)   | Group Project Demo                               | 11 | Y |
 
 
+
+--------
 
 ## Activity 1 - Research The Role
 
@@ -153,6 +155,8 @@ The purpose of today’s session is to consider what a gameplay programmer is an
  - Q&A Session
 
 
+--------
+
  ## Activity 2 – Where Are You
 
  The purpose of today’s session is to expose your current experience of gameplay programming.
@@ -167,6 +171,9 @@ The purpose of today’s session is to consider what a gameplay programmer is an
 A normal team management and motivation activity is to have a show and tell towards the end of a sprint or at regular (weekly?) intervals.
 
 You may be required to demonstrate what you have made to the wider team, to discuss the implications of your work and to find ways to help other team members through this talk.
+
+
+--------
 
 ## Activity 3 - Switches and Doors
 
@@ -231,6 +238,8 @@ Score!
 Start Using the Standard Assets Avatar. But you might want to make a simple walking avatar with a basic follow camera using the FREE asset packs from vendor EXPLOSIVE on Unity Asset Store.
 
 
+--------
+
 
 ## Activity 4 - Basic Avatar
 
@@ -289,6 +298,11 @@ Whoohoo!
 ### Notes
 
 Lloyd has a big set of console controllers locked in his cupboard somewhere, perhaps you can borrow one from him? Probably easiest to go to the resources room and borrow an Xbox controller from them to work with.
+
+
+
+--------
+
 
 
 ## Activity 5 – Collectables and Special Effects
@@ -366,6 +380,7 @@ Show it to me to get it marked!
 
 
 
+--------
 
 
 
@@ -396,6 +411,7 @@ Do not implement a free mouse look style camera in your final version. The probl
  - How might you create an experience that is uniform or at least feels similar across multiple different platforms?
 
 
+--------
 
 ## Activity 7 – Special Camera Controllers
 
@@ -418,6 +434,9 @@ Build a Camera Controller and Associated System which allows the player to easil
 ### Complicated Constrained Environment
 
 
+--------
+
+
 ## Activity 8 – Moving Platform Sequence
 
 __This Activity is part of your portfolio assessment.__
@@ -430,12 +449,17 @@ Imagine two platforming sequences.
 
 
 
-## Activity 8 – Air Controls and Wall Interactions
+--------
+
+
+## Activity 9 – Air Controls and Wall Interactions
 
 __This Activity is part of your portfolio assessment.__
 
 Consider the Air Controls of Mario and Super Meat Boy.
 
+
+--------
 
 
 ## Activity 10 – Melee Combat
@@ -444,6 +468,8 @@ __This Activity is part of your portfolio assessment.__
 
 Consider the melee combat of Zelda.
 
+
+--------
 
 
 ## Activity 11 - Group Project
