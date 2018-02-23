@@ -119,10 +119,10 @@ The exact marking scheme will be supplied to you. You will be marked on the cont
 | 3    | 2 (Fri)   | Finish & Mark Basic Avatar                       | 4 | Y |
 | 4    | 1 (Tue)   | Collectables & Particles                         | 5 |   |
 | 4    | 2 (Fri)   | Finish & Mark Collectable                        | 5 | Y |
-| 5    | 1 (Tue)   | Special Camera Controllers                       | 6 |   |
-| 5    | 2 (Fri)   | Finish & Mark Special Camera Controllers         | 6 | Y |
-| 6    | 1 (Tue)   | Slick Controllable Gameplay Camera               | 7 |   |
-| 6    | 2 (Fri)   | Finish & Mark Gameplay Camera                    | 7 | Y |
+| 5    | 1 (Tue)   | Slick Controllable Gameplay Camera               | 7 |   |
+| 5    | 2 (Fri)   | Finish & Mark Gameplay Camera                    | 7 | Y |
+| 6    | 1 (Tue)   | Special Camera Controllers                       | 6 |   |
+| 6    | 2 (Fri)   | Finish & Mark Special Camera Controllers         | 6 | Y |
 | 7    | 1 (Tue)   | Moving Platforms Sequence                        | 8 |   |
 | 7    | 2 (Fri)   | Finish & Mark Platforms                          | 8 | Y |
 | 8    | 1 (Tue)   | Combat                                           | 9 |   |
@@ -381,8 +381,6 @@ Show it to me to get it marked!
 
 
 --------
-
-
 
 ##  Activity 6 – Controllable Follow Cam
 
